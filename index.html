@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>UI/UX</title>
+  </head>
+  <body class="text-white overflow-x-hidden">
+    <!-- Navbar Start  -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand order-1" href="#">
+          <img src="images/navlogo.png" width="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+          style="border: 1px solid white"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark order-2"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-evenly flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="btn btn-outline-light order-3">SING IN</button>
+      </div>
+    </nav>
+    <!-- Navbar end  -->
+
+    <div class="main-container position-relative">
+      <div class="position-absolute blur-circle"></div>
+      <div class="mt-5 row d-flex align-items-center">
+        <div class="col-md-4 d-none d-lg-block position-relative">
+          <div class="main-page-UI-text">
+            <h1 class="">UI<span>.</span></h1>
+          </div>
+          <div class="main-page-benginner-text">
+            <p>BEGINNER's</p>
+          </div>
+          <div class="main-page-become-text">
+            <p>BECOME A <br />PRO DESIGNER</p>
+          </div>
+        </div>
+
+        <div
+          class="mt-lg-5 col-lg-4 person-img-container d-flex justify-content-center"
+        >
+          <img class="mt-5" src="images/person.png" alt="person-img" />
+        </div>
+
+        <div class="col-lg-4 position-relative">
+          <div class="row p-3 p-lg-1">
+            <div class="col-6 edition-2024-card d-lg-block d-none">
+              <h3>Edditon</h3>
+              <h1>2024</h1>
+            </div>
+            <br />
+            <br />
+            <div class="col-12">
+              <h4>START GUID FOR BEGINNER DISINGERS</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+                cum odio harum illum obcaecati at repellendus earum ut sed
+                dolor.
+              </p>
+
+              <button class="theme-btn m-1">LET'S START</button>
+              <a class="btn btn-outline-light m-1" href="#">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row achivements-highlites pt-4 pb-4">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <h1><span>+</span>150</h1>
+          &nbsp;&nbsp;
+          <p>HAPPY <br />STUDENTS</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <h1><span>+</span>50</h1>
+          &nbsp;&nbsp;
+          <p>CERTIFIED <br />COURSES</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <h1><span>+</span>1000</h1>
+          &nbsp;&nbsp;
+          <p>AWARDS <br />RECIVED</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 10vw; margin-bottom: 10vw">
+        <div
+          class="col-12 d-flex justify-content-center align-items-center accept-new-text position-relative"
+        >
+          <div class="original-transform"></div>
+          <div class="mini-circle circle-1"></div>
+          <div class="mini-circle circle-2"></div>
+          <!-- <div class="circle-container"> -->
+          <!-- </div> -->
+
+          <h1>
+            ACCEPT <br />NEW<br />
+            CHALLENGES
+          </h1>
+        </div>
+      </div>
+
+      <div class="row find-you-course-section">
+        <div class="col-12 ps-5 position-relative">
+          <div class="blur-circle-2"></div>
+          <h1 class="d-inline-block">FIND</h1>
+          <h2 class="d-inline-block">Your Course</h2>
+        </div>
+
+        <div class="col-12">
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-10 col-md-5 col-lg-2 course-card">
+              <h3>COURSE <span class="course-no">01</span></h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                voluptatem nemo nisi consequatur. Voluptatem, aspernatur!
+              </p>
+              <button class="theme-btn">READ MORE</button>
+            </div>
+            <div class="col-10 col-md-5 col-lg-2 course-card">
+              <h3>COURSE <span class="course-no">02</span></h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                voluptatem nemo nisi consequatur. Voluptatem, aspernatur!
+              </p>
+              <button class="theme-btn">READ MORE</button>
+            </div>
+            <div class="col-10 col-md-5 col-lg-2 course-card">
+              <h3>COURSE <span class="course-no">03</span></h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                voluptatem nemo nisi consequatur. Voluptatem, aspernatur!
+              </p>
+              <button class="theme-btn">READ MORE</button>
+            </div>
+            <div class="col-10 col-md-5 col-lg-2 course-card">
+              <h3>COURSE <span class="course-no">04</span></h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                voluptatem nemo nisi consequatur. Voluptatem, aspernatur!
+              </p>
+              <button class="theme-btn">READ MORE</button>
+            </div>
+            <div class="col-12 mt-4 mb-4 d-flex justify-content-center">
+              <a href="#" class="more-cousrse-btn">
+                MORE COURSES <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="row d-flex flex-lg-row-reverse justify-content-center align-items-center"
+      >
+        <div class="col-10 col-md-3 position-relative">
+          <div class="position-absolute blur-circle"></div>
+          <img src="images/person2.png" alt="" width="400" />
+        </div>
+        <div class="col-10 col-md-5">
+          <h2>About <span class="text-theme">us.</span></h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+            cumque atque et aliquid laudantium dicta, architecto sit eaque,
+            cupiditate dolorem placeat repudiandae! Aliquam ipsam ab assumenda
+            rem officiis id nulla.
+          </p>
+          <ul class="row">
+            <li class="col-5">Lorem ipsum dolor.</li>
+            <li class="col-5">Lorem ipsum dolor.</li>
+            <li class="col-5">Lorem ipsum dolor.</li>
+            <li class="col-5">Lorem ipsum dolor.</li>
+          </ul>
+          <br />
+          <button class="theme-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center mt-5">
+        <div class="col-12 col-lg-5 position-relative">
+          <div class="blur-circle"></div>
+          <img
+            class="ms-5"
+            src="images/person3.png"
+            alt="person3-img"
+            width="350"
+          />
+        </div>
+        <div class="col-12 col-lg-5 ps-5">
+          <h2>Why <span class="text-theme">us.</span></h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+            cumque atque et aliquid laudantium dicta, architecto sit eaque,
+            cupiditate dolorem placeat repudiandae! Aliquam ipsam ab assumenda
+            rem officiis id nulla.
+          </p>
+          <button class="theme-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <h2 class="what-users-think-text">WHAT</h2>
+          <h3 class="text-theme">user's think.</h3>
+        </div>
+        <div class="col-12 mt-2 mt-lg-4">
+          <div class="row">
+            <div class="col-lg-4 col-12 review-card">
+              <center>
+                <div class="profile-img">
+                  <img src="images/card-profile1.png" />
+                </div>
+                <div class="profile-name">
+                  <p4>LAURA SMITH</p4>
+                  <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </p>
+                </div>
+                <div class="profile-quotes">
+                  <p>
+                    <!-- <span class="fs-2 text-theme">'</span> -->
+                    <q
+                      >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam harum, incidunt eligendi iusto esse fuga!</q
+                    >
+                  </p>
+                </div>
+              </center>
+            </div>
+            <div class="col-lg-4 col-12 review-card">
+              <center>
+                <div class="profile-img">
+                  <img src="images/card-profile2.png" />
+                </div>
+                <div class="profile-name">
+                  <p4>JOHN SMITH</p4>
+                  <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </p>
+                </div>
+                <div class="profile-quotes">
+                  <p>
+                    <!-- <span class="fs-2 text-theme">'</span> -->
+                    <q
+                      >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam harum, incidunt eligendi iusto esse fuga!</q
+                    >
+                  </p>
+                </div>
+              </center>
+            </div>
+            <div class="col-lg-4 col-12 review-card">
+              <center>
+                <div class="profile-img">
+                  <img src="images/card-profile3.png" />
+                </div>
+                <div class="profile-name">
+                  <p4>SARA SMITH</p4>
+                  <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </p>
+                </div>
+                <div class="profile-quotes">
+                  <p>
+                    <!-- <span class="fs-2 text-theme">'</span> -->
+                    <q
+                      >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam harum, incidunt eligendi iusto esse fuga!</q
+                    >
+                  </p>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center d-none d-lg-block">
+          <div class="row d-flex justify-content-center">
+            <div class="col-1"><i class="bi fs-1 bi-arrow-left"></i></div>
+            <div class="col-1"><i class="bi fs-1 bi-arrow-right"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-lg-7 d-none d-lg-block">
+          <img src="images/person4.png" alt="img" width="700" />
+        </div>
+        <div class="col-12 col-lg-4 mt-lg-5 p-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="fs-1">SUBSCRIBE</h3>
+              <h4 class="text-theme">to our newsletter</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Itaque, perferendis.
+              </p>
+              <form class="mt-5 d-flex flex-column gap-2">
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+                <textarea
+                  name=""
+                  id=""
+                  cols="10"
+                  rows="5"
+                  placeholder="MESSAGE"
+                ></textarea>
+              </form>
+              <input
+                type="submit"
+                class="theme-btn mt-1"
+                vlaue="SEND MESSAGE"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer container-fluid pt-5 pb-5">
+      <div class="row d-lg-flex justify-content-lg-center p-lg-4">
+        <div class="col-12 col-lg-3 text-center text-lg-start mt-5 mt-lg-0">
+          <h4 class="text-decoration-underline">About</h4>
+          <a href="#" class="text-decoration-none">History</a>
+          <a href="#" class="text-decoration-none">Our Team</a>
+          <a href="#" class="text-decoration-none">Mission Statement</a>
+          <a href="#" class="text-decoration-none">Terms & Condition</a>
+          <a href="#" class="text-decoration-none">Privacy Policy</a>
+        </div>
+        <div class="col-12 col-lg-3 text-center text-lg-start mt-5 mt-lg-0">
+          <h4 class="text-decoration-underline">What we do</h4>
+          <a href="#" class="text-decoration-none">News and stories</a>
+          <a href="#" class="text-decoration-none">Publication</a>
+          <a href="#" class="text-decoration-none">Take actions</a>
+          <a href="#" class="text-decoration-none">Recomendaton</a>
+          <a href="#" class="text-decoration-none">Help</a>
+        </div>
+        <div class="col-12 col-lg-5 mt-5 mt-lg-0">
+          <div class="text-center text-lg-end">
+            <h4 class="fs-3">Sign Up to receive</h4>
+            <h4 class="fs-3">____ Our newsletter</h4>
+          </div>
+          <!-- <div></div> -->
+          <div class="d-lg-flex justify-content-end text-center mt-5">
+            <div class="mt-2 mb-2"><a href="#">Follow us!</a></div>
+            <div class="d-inline-block">
+              <a href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+            <div class="d-inline-block">
+              <a href="#"><i class="text-white bi bi-instagram"></i></a>
+            </div>
+            <div class="d-inline-block">
+              <a href="#"><i class="bi bi-youtube text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const NavBar = document.querySelector(".navbar");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY >= 100) {
+        NavBar.classList.add("bg-black");
+      } else if (window.scrollY <= 100) {
+        NavBar.classList.remove("bg-black");
+      }
+    });
+  </script>
+</html>

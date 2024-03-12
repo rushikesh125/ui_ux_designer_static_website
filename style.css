@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color:var(--text-color);
+    
+    /* overflow-x: hidden; */
+    /* border:1px solid red; */
+    /* box-sizing: border-box; */
+}
+.row{
+    /* box-sizing: border-box !important; */
+}
+
+:root {
+    --primary-color: blueviolet;
+    --background: black;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--background) !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.blur-circle {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    left: 50%;
+    transform: translate(-50%);
+    filter: blur(140px);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.navbar-toggler>i {
+    color: var(--text-color);
+}
+
+.nav-item>.nav-link {
+    color: var(--text-color)
+}
+
+.nav-item>.nav-link:hover {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+}
+
+.person-img-container img {
+    width: 240px;
+}
+
+.theme-btn {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.edition-2024-card {
+    position: absolute;
+    top: -140px;
+    right: -10px;
+    border: 1px solid var(--text-color);
+}
+
+.main-page-UI-text {
+    position: absolute;
+    top: -15rem;
+    left: 5rem;
+}
+
+.main-page-UI-text h1 {
+    font-size: 10rem;
+}
+
+.main-page-UI-text h1 span {
+    color: var(--primary-color)
+}
+
+.main-page-benginner-text {
+    position: absolute;
+    left: 5rem;
+    top: -5rem;
+
+}
+
+.main-page-benginner-text p {
+    font-size: 3rem;
+}
+
+.main-page-become-text {
+    position: absolute;
+    top: 3.5rem;
+    left: 20rem;
+}
+
+.main-page-become-text P {
+    font-weight: 600;
+}
+
+.achivements-highlites>div>h1>span {
+    color: var(--primary-color);
+}
+
+.achivements-highlites {
+    box-shadow: 4px 0px 10px rgb(37, 37, 37);
+}
+
+.accept-new-text h1 {
+    font-size: 7vw;
+    text-align: center;
+}
+
+/* .circle-container{
+    position:absolute;
+  } */
+.original-transform {
+    position: absolute;
+    left: 50%;
+    top: -26%;
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+    border: 3px solid var(--primary-color);
+    /* box-shadow: 2px -2px 14px var(--primary-color); */
+    transform-origin: 48% 50%;
+    transform: translate(-50%) rotate(-24deg) skew(22deg, 36deg);
+    /* transform: ; */
+}
+
+.mini-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    position: absolute;
+}
+
+.circle-1 {
+    top: 40%;
+    left: 65%;
+}
+
+.circle-2 {
+    top: 42%;
+    left: 35%;
+}
+
+.find-you-course-section h1 {
+    font-size: 10vw;
+}
+.course-card{
+    box-sizing: border-box;
+    border:1px solid var(--text-color);
+    padding:2rem;
+    text-align: center;
+}
+.course-card .course-no{
+    
+    color:var(--primary-color);
+    
+}
+.course-card hr{
+    /* width:10px; */
+ border:2px solid var(--primary-color);
+    /* height: 10px; */
+}
+.blur-circle-2{
+    position: absolute;
+    top:50%;
+    right:20%;
+    width:200px;
+    height:200px;
+    z-index: -1;
+    background-color: var(--primary-color);
+    filter:blur(150px);
+}
+.more-cousrse-btn{
+    text-align: center;
+    text-decoration: none;
+    color:var(--text-color);
+    font-size: 20px;
+    transition: all 0.7s ease-in-out;
+}
+.more-cousrse-btn:hover, i{
+    color: var(--primary-color);
+}
+.text-theme{
+    color:var(--primary-color)
+}
+.person3-img{
+    width: 240px;;
+}
+.what-users-think-text{
+    font-size: 4rem;
+}
+.review-card .profile-img{
+    width:10rem;
+    height:10rem;
+    border-radius:50%;
+    overflow: hidden;
+}
+.review-card .profile-img img{
+    width: 100%;
+    height: 100%;
+}
+.profile-quotes{
+    width: 60%;
+}
+form > input,textarea{
+    outline: none;
+    border:3px solid var(--primary-color);
+    padding:10px 20px;
+    color:white;
+    background-color: transparent;
+}
+.footer{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+a{
+    color: var(--text-color) !important;
+    display: block;
+}
+.footer  i{
+    color:var(--text-color);
+    font-size: 30px;
+    padding:10px 20px;
+}
